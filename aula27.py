@@ -13,6 +13,7 @@ RADAR_RANGE = 1  # alcance do radar, ou seja, até onde ele "enxerga"
 
 vel_carro_pass_radar_1 = velocidade > RADAR_1
 
+# Prática ruim de código
 carro_passou_radar_1 = local_carro >= (LOCAL_1 - RADAR_RANGE) and \
     local_carro <= (LOCAL_1 + RADAR_RANGE)
 

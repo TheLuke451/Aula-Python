@@ -11,11 +11,11 @@ entrada = input("[E]ntrar [S]air: ")
 senha_digitada = input("Senha: ")
 senha_permitida = "1234"
 
-if entrada == "E" and senha_digitada == senha_permitida:
+if entrada == "E" or "e" and senha_digitada == senha_permitida:
     print("Você escolheu entrar.")
-elif entrada == "E" and senha_digitada != senha_permitida:
+elif entrada == "E" or "e" and senha_digitada != senha_permitida:
     print("Senha incorreta. Acesso negado.")
-elif entrada == "S":
+elif entrada == "S" or "s":
     print("Você escolheu sair.")
 else:
     print("Opção Inválida. Por favor, escolha 'E' para entrar ou 'S' para sair.")
