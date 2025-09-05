@@ -1,4 +1,6 @@
 """
+Aula 20
+
 Operadores Lógicos
 Operadores lógicos são usados para combinar expressões booleanas. Os principais operadores lógicos em Python são:
 - `and`: Retorna True se ambas as expressões forem verdadeiras.
